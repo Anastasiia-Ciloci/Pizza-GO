@@ -18,7 +18,7 @@ export default function MainContainer() {
     if (currentPage === "Cart") {
       return <Cart />;
     }
-    return <Cart />;
+    // return <Cart />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
