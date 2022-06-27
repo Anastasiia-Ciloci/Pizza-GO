@@ -3,14 +3,15 @@ import NavTabs from "./NavTabs";
 import Footer from "./Footer";
 import Contact from "./pages/Contact";
 import Cart from "./pages/Cart";
-import Order from "./pages/Order";
+import Home from "./pages/Home";
+import Menu from "./pages/Menu";
 
 export default function MainContainer() {
-  const [currentPage, setCurrentPage] = useState("Order");
+  const [currentPage, setCurrentPage] = useState("Home");
 
   const renderPage = () => {
-    if (currentPage === "Order") {
-      return <Order />;
+    if (currentPage === "Home") {
+      return <Home />;
     }
     if (currentPage === "Contact") {
       return <Contact />;
@@ -18,7 +19,10 @@ export default function MainContainer() {
     if (currentPage === "Cart") {
       return <Cart />;
     }
-    // return <Cart />;
+    if (currentPage === "Menu") {
+      return <Menu />;
+    }
+    return <Home />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);

@@ -13,7 +13,7 @@ const styles = {
 };
 //need some logic to add to cart
 //just UI below
-const Order = () => {
+const Menu = () => {
   return (
     <>
       <div className="col-md-3 text-center rounded card mb-5 pb-5">
@@ -61,4 +61,4 @@ const Order = () => {
   );
 };
 
-export default Order;
+export default Menu;
