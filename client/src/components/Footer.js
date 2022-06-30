@@ -85,15 +85,15 @@ const Footer = () => {
                 Hours
               </p>
 
-              <table className="table text-center ">
+              <table className="table text-center text-white ">
                 <tbody className="fw-normal">
                   <tr>
-                    <td>Mon - Thu:</td>
-                    <td>8am - 6pm</td>
+                    <td>Monday - Friday:</td>
+                    <td>8am - 8pm</td>
                   </tr>
                   <tr>
-                    <td>Fri - Sat:</td>
-                    <td>9am - 6pm</td>
+                    <td>Saturday:</td>
+                    <td>9am - 11pm</td>
                   </tr>
                   <tr>
                     <td>Sunday:</td>
@@ -174,7 +174,7 @@ const Footer = () => {
                         href="tel:+1454-988-2238"
                         rel="noreferrer"
                       >
-                        1-454-PIZZA-GO
+                        +1-454-PIZZA-GO
                       </a>
                     </span>
                   </li>
