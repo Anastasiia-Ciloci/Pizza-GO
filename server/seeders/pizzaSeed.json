@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Hawaiian",
+    "price": "7.45",
+    "description": "Best pizza ever with pineapples, ham and cheese",
+    "image": "https://www.yourhomebasedmom.com/wp-content/uploads/2018/03/Hawaiian-Pizza-6.jpg"
+  },
+  {
+    "name": "Pepperoni",
+    "price": "6.99",
+    "description": "Best pizza ever with pepperommi and cheese",
+    "image": "https://www.yourhomebasedmom.com/wp-content/uploads/2018/03/Hawaiian-Pizza-6.jpg"
+  },
+  {
+    "name": "Four cheese",
+    "price": "7.50",
+    "description": "Best pizza ever with 4 diffent kind of cheese",
+    "image": "https://www.yourhomebasedmom.com/wp-content/uploads/2018/03/Hawaiian-Pizza-6.jpg"
+  }
+]
