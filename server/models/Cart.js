@@ -1,5 +1,5 @@
 const { Schema, model } = require("mongoose");
-const Item = require("./Item");
+const Item = require("./Pizza");
 
 const cartSchema = new Schema({
   userId: {

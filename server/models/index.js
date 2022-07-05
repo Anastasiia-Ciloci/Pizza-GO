@@ -1,5 +1,4 @@
-const User = require("./User");
-const Item = require("./Item");
+const Pizza = require("./Pizza");
 const Cart = require("./Cart");
 
-module.exports = { User, Item, Cart };
+module.exports = { Pizza, Cart };
